@@ -1,0 +1,38 @@
+@host = http://aittest.x431.com/
+
+@user_id = 71
+@golo_user_id=2208686
+
+### 获取技师列表
+GET {{host}}/SmartLink/User/getMytechnicianList
+?user_id={{user_id}}
+
+### 我的收入
+GET {{host}}/SmartLink/User/myIncome
+?user_id={{user_id}}
+&s_user_id={{user_id}}
+
+###
+GET {{host}}/SmartLink/User/getTechnicianLabelList
+?user_id={{user_id}}
+
+### 获取用户信息
+GET {{host}}/SmartLink/User/get_user_info_by_wx_code
+?code=061kasFa1NFmJA0RU0Ia1ZagoW1kasFJ
+
+### 获取商家信息
+GET {{host}}/SmartLink/Shop/getShopDetail
+?b_id=0
+
+### 获取服务历史列表
+GET {{host}}/SmartLink/Task/get_bs_order_list
+?golo_user_id={{golo_user_id}}
+&type=0
+&page=1
+&size=2
+
+### 服务评价列表
+GET {{host}}/SmartLink/Shop/getEvaluateList
+?b_id=44
+&page=1
+&pagesize=1

@@ -1,0 +1,63 @@
+{
+  "name": "smartlink_business_backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "agora-rtc-sdk": "^3.2.3",
+    "agora-rtc-sdk-ng": "^4.3.0",
+    "agora-rtm-sdk": "1.2.2",
+    "ant-design-vue": "^1.3.17",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "easemob-emedia": "^2.1.3",
+    "easemob-webrtc": "^3.2.2",
+    "echarts": "^5.0.2",
+    "element-ui": "^2.15.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "numeral": "^2.0.6",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vue-wxlogin": "^1.0.4",
+    "vuedraggable": "^2.23.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@types/numeral": "^2.0.1",
+    "@types/webpack-env": "^1.16.0",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "babel-plugin-component": "^1.1.1",
+    "easemob-websdk": "^3.4.4",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "prettier": "^1.19.1",
+    "sass": "^1.29.0",
+    "sass-loader": "^9.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
+    "typescript": "~3.9.3",
+    "vant": "^2.1.8",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "html": {
+    "title": "星链"
+  }
+}

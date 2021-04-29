@@ -1,0 +1,181 @@
+#app {
+  @apply h-full overflow-auto;
+}
+
+.container {
+  @apply h-full flex flex-col overflow-auto;
+  background-color: #efefef;
+}
+
+.application {
+  @apply text-sm;
+}
+
+// card
+.card {
+  @apply bg-white rounded-lg flex relative text-sm flex-col;
+
+  &-item {
+    @apply flex flex-col mb-10;
+
+    &__title {
+      @apply font-bold mb-4;
+    }
+
+    &__content {
+      @apply flex;
+    }
+  }
+}
+
+// table
+.table {
+  &-header {
+    &-row {
+      @apply text-black;
+    }
+    &-cell {
+      background-color: #dedede !important;
+    }
+  }
+  &-body {
+    &-row {
+    }
+    &-cell {
+    }
+  }
+}
+
+.table__button {
+  @apply cursor-pointer;
+  color: #28678d;
+}
+
+// tab
+.tab {
+  @apply cursor-pointer px-1;
+  &.actived {
+    @apply relative;
+    color: #0083d2;
+
+    &::after {
+      @apply -bottom-2 w-full absolute left-0;
+      background-color: #0083d2;
+      height: 2px;
+      content: "";
+    }
+  }
+}
+
+// form
+.form {
+  @apply flex flex-col w-1/2;
+
+  &-item {
+    @apply flex mb-4 items-center;
+
+    &__label {
+      @apply min-w-24 relative flex items-center;
+      color: #777777;
+    }
+
+    &__required {
+      @apply text-red-600 absolute -left-3;
+    }
+
+    &__content {
+      @apply flex-grow;
+    }
+  }
+}
+
+// element-ui
+.el-pagination.is-background .el-pager .number {
+  @apply bg-white;
+}
+
+.el-popconfirm__main {
+  @apply mb-4;
+}
+
+.el-dialog {
+  &__title {
+    @apply text-sm font-bold !important;
+  }
+  &__header {
+    @apply p-0 !important;
+    @apply flex justify-center items-center h-8 rounded-t;
+    background: #d9eaf4;
+  }
+  &__headerbtn {
+    @apply top-auto right-2 !important;
+    @apply self-center;
+  }
+}
+
+.el-avatar{
+  >img{
+    width: 100%;
+  }
+}
+
+.popup-wrap {
+  .van-popup__close-icon--top-left{
+    position:absolute;
+    font-size: 20px;
+  }
+}
+.van-overlay{
+  z-index: 1991 !important;
+}
+.van-popup{
+  z-index: 1992 !important;
+}
+
+.im_tdfb_bg0{
+  background-color: rgba(0,0,0,.0) !important;
+}
+.im_xq_dialog {
+  .el-dialog__header {
+    padding: 20px 20px !important;
+  }
+}
+.im_sn_select {
+  .el-input__inner {
+    border: 0;
+  }
+}
+.tc_txt_main {
+  textarea {
+    height: 300px;
+  }
+}
+
+
+.tc_video_rotate2 {
+  video {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -moz-transform: rotate(90deg); /* Firefox */
+    -webkit-transform: rotate(90deg); /* Safari 和 Chrome */
+    -o-transform: rotate(90deg); /* Opera */
+  }
+}
+.tc_video_rotate3 {
+  video {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -moz-transform: rotate(180deg); /* Firefox */
+    -webkit-transform: rotate(180deg); /* Safari 和 Chrome */
+    -o-transform: rotate(180deg); /* Opera */
+  }
+}
+.tc_video_rotate4 {
+  video {
+    transform: rotate(270deg);
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -moz-transform: rotate(270deg); /* Firefox */
+    -webkit-transform: rotate(270deg); /* Safari 和 Chrome */
+    -o-transform: rotate(270deg); /* Opera */
+  }
+}
